@@ -1,39 +1,8 @@
-// 'use client'
-//
-// import React from 'react';
-// import { Box, CssBaseline, ThemeProvider, createTheme } from '@mui/material';
-// import LeftNavbar from "./LeftNavbar.tsx";
-// // import DashboardForm from './components/DashboardForm';
-//
-// const theme = createTheme();
-//
-// export default function Dashboard() {
-//     return (
-//         <ThemeProvider theme={theme}>
-//             <CssBaseline />
-//             <Box sx={{ display: 'flex' }}>
-//                 <LeftNavbar />
-//                 {/*<Box component="main" sx={{ flexGrow: 1, p: 3 }}>*/}
-//                 {/*    <DashboardForm />*/}
-//                 {/*</Box>*/}
-//             </Box>
-//         </ThemeProvider>
-//     );
-// }
-//
-
-
-
 'use client'
 
-import React, { useState } from 'react';
-import { Box, CssBaseline, ThemeProvider, createTheme, AppBar, Toolbar, Typography } from '@mui/material';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { useState } from 'react';
+import {CssBaseline, ThemeProvider, createTheme, } from '@mui/material';
 import LeftNavbar from './LeftNavbar';
-import ProductPage from './ProductPage';
-import ClientsPage from './ClientPage.tsx';
-import AccountsPage from './AccountsPage';
-import LoginPage from "./LoginPage.tsx";
 
 const theme = createTheme();
 
